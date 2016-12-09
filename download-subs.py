@@ -38,8 +38,8 @@ from xmlrpclib import ServerProxy, Error
 array_languages = ["spa","eng"]
 
 # Open subtitles credentials. Leave blank in case you havent.
-opensubs_username = "ramaznor"
-opensubs_password = "bdsp10hxp"
+opensubs_username = ""
+opensubs_password = ""
 
 # encoding: not working for now.
 encoding = ""
@@ -258,7 +258,7 @@ class OpenSubsManager:
             text_file.write(data)
             text_file.close()
         except Exception as e:
-            logging.warning("Problems writting file to disk.".str(e))
+            logging.warning("Problems writting file to disk.")
             return 0
         return 1
 
