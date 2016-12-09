@@ -331,7 +331,7 @@ if len(films_path_array) == 0:
 # Download movies subtitles
 array_errors = download_files_subtitles(opensubs_username,opensubs_password,films_path_array)
 
-# Show errors if neccesary
+# Show errors if necessary
 if len(array_errors) > 0:
     show_error_and_exit("No se pudo bajar subs para:\n\t"+"\n\t ".join(array_errors))
 
