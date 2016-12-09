@@ -14,6 +14,12 @@ You can use your own open subtitles credentials to avoid some download limitatio
 You can select the subtitle format, by default srt.
 
 
+### Configuration
+Modify script under section "USER CONFIGUATION VARIABLES"
+
+* select the subtitles languages you want to download
+* set your credentials to avoid some download limitations (not necessary)
+
 
 ### Installation
 For Ubuntu 13.04 or above
