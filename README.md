@@ -1,25 +1,20 @@
 Download-Subtitles-Automatically
 ==================================
 
-
 Linux script to download several subtitles automatically.
 
 ![ScreenShot](https://raw.githubusercontent.com/ramazmar/my-videos/master/download-several-subs/download-several-subs.gif)
 
 ### Features
-You can download several subtitles( spanish,english,french  and so forth ) of several films with just one click.
-From command line or from X.
-The script will download the subtitles from open subtitles.
-You can use your own open subtitles credentials to avoid some download limitations.
-You can select the subtitle format, by default srt.
-
+* You can download several subtitles( spanish,english,french  and so forth ) of several films with just one click.
+* From command line or from X.
+* The script use open subtitles API and will download subtitles from open subtitles.
 
 ### Configuration
 Modify script under section "USER CONFIGUATION VARIABLES"
 
 * select the subtitles languages you want to download
 * set your credentials to avoid some download limitations (not necessary)
-
 
 ### Installation
 For Ubuntu 13.04 or above
