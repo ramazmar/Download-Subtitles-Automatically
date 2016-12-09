@@ -8,7 +8,7 @@ Linux script to download several subtitles automatically.
 ### Features
 * You can download several subtitles( spanish,english,french  and so forth ) of several films with just one click.
 * From command line or from X.
-* The script use open subtitles API and will download subtitles from open subtitles.
+* The script uses open subtitles API
 
 ### Configuration
 Modify script under section "USER CONFIGUATION VARIABLES"
